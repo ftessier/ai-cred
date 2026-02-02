@@ -40,17 +40,19 @@ The scale reflects intensity of contribution: `no` < `re` < `ed` < `dr` < `cr`
 
 ## 4. Common examples
 
-| Tag                                                                                             | Human    | AI       | Typical Scenario                                  |
-| :---------------------------------------------------------------------------------------------- | :------- | :------- | :------------------------------------------------ |
-| [![cred](https://img.shields.io/badge/cred-cr--no_1.0-green)](https://github.com/ftessier/ai-cred)  | Created  | None     | Fully human-authored, no AI involved              |
-| [![cred](https://img.shields.io/badge/cred-cr--re_1.0-green)](https://github.com/ftessier/ai-cred) | Created  | Reviewed | Human wrote it, AI checked grammar                |
-| [![cred](https://img.shields.io/badge/cred-cr--ed_1.0-green)](https://github.com/ftessier/ai-cred) | Created  | Edited   | Human wrote it, AI polished style                 |
-| [![cred](https://img.shields.io/badge/cred-cr--dr_1.0-green)](https://github.com/ftessier/ai-cred) | Created  | Directed | AI guided structure, human produced content       |
-| [![cred](https://img.shields.io/badge/cred-ed--cr_1.0-red)](https://github.com/ftessier/ai-cred) | Edited   | Created  | AI drafted, human substantially rewrote           |
-| [![cred](https://img.shields.io/badge/cred-dr--cr_1.0-red)](https://github.com/ftessier/ai-cred) | Directed | Created  | Human prompted and curated, AI generated          |
-| [![cred](https://img.shields.io/badge/cred-re--cr_1.0-red)](https://github.com/ftessier/ai-cred) | Reviewed | Created  | AI generated, human approved with minimal changes |
-| [![cred](https://img.shields.io/badge/cred-no--cr_1.0-red)](https://github.com/ftessier/ai-cred)    | None     | Created  | Fully AI-generated                                |
-|                                                                                                 |          |          |
+Badge colors indicate primary authorship at a glance: green when the human created the core content, red when AI created it, and orange for balanced collaboration.
+
+| Tag                                                                                              | Human    | AI       | Typical Scenario                                  |
+| :----------------------------------------------------------------------------------------------- | :------- | :------- | :------------------------------------------------ |
+| [![cred](https://img.shields.io/badge/cred-cr--no_1.0-green)](https://github.com/ftessier/cred)  | Created  | None     | Fully human-authored, no AI involved              |
+| [![cred](https://img.shields.io/badge/cred-cr--re_1.0-green)](https://github.com/ftessier/cred)  | Created  | Reviewed | Human wrote it, AI checked grammar                |
+| [![cred](https://img.shields.io/badge/cred-cr--ed_1.0-green)](https://github.com/ftessier/cred)  | Created  | Edited   | Human wrote it, AI polished style                 |
+| [![cred](https://img.shields.io/badge/cred-cr--dr_1.0-green)](https://github.com/ftessier/cred)  | Created  | Directed | AI guided structure, human produced content       |
+| [![cred](https://img.shields.io/badge/cred-cr--cr_1.0-orange)](https://github.com/ftessier/cred) | Created  | Created  | Iterative collaboration, balanced contribution    |
+| [![cred](https://img.shields.io/badge/cred-ed--cr_1.0-red)](https://github.com/ftessier/cred)    | Edited   | Created  | AI drafted, human substantially rewrote           |
+| [![cred](https://img.shields.io/badge/cred-dr--cr_1.0-red)](https://github.com/ftessier/cred)    | Directed | Created  | Human prompted and curated, AI generated          |
+| [![cred](https://img.shields.io/badge/cred-re--cr_1.0-red)](https://github.com/ftessier/cred)    | Reviewed | Created  | AI generated, human approved with minimal changes |
+| [![cred](https://img.shields.io/badge/cred-no--cr_1.0-red)](https://github.com/ftessier/cred)    | None     | Created  | Fully AI-generated                                |
 
 ## 5. Attribution layers
 
