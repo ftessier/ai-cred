@@ -1,6 +1,6 @@
 # cred — A memorable standard for Human-AI attribution <!-- omit in toc -->
 
-[![cred](https://img.shields.io/badge/cred-dr--cr-red)](https://github.com/ftessier/cred)
+[![cred](https://img.shields.io/badge/cred-dr--cr_1.0-red)](https://github.com/ftessier/cred)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 ## Table of contents <!-- omit in toc -->
@@ -20,8 +20,8 @@ The **cred** framework provides a simple, universal way to declare the respectiv
 
 ## 2. Format
 
-```
-cred-[human contribution]-[ai contribution]
+```text
+cred-[human contribution]-[ai contribution] [version]
 ```
 
 ## 3. Contribution codes
@@ -42,34 +42,34 @@ The scale reflects intensity of contribution: `no` < `re` < `ed` < `dr` < `cr`
 
 | Tag                                                                                             | Human    | AI       | Typical Scenario                                  |
 | :---------------------------------------------------------------------------------------------- | :------- | :------- | :------------------------------------------------ |
-| [![cred](https://img.shields.io/badge/cred-cr--no-green)](https://github.com/ftessier/ai-cred)  | Created  | None     | Fully human-authored, no AI involved              |
-| [![cred](https://img.shields.io/badge/cred-cr--re-green)](https://github.com/ftessier/ai-cred) | Created  | Reviewed | Human wrote it, AI checked grammar                |
-| [![cred](https://img.shields.io/badge/cred-cr--ed-green)](https://github.com/ftessier/ai-cred) | Created  | Edited   | Human wrote it, AI polished style                 |
-| [![cred](https://img.shields.io/badge/cred-cr--dr-green)](https://github.com/ftessier/ai-cred) | Created  | Directed | AI guided structure, human produced content       |
-| [![cred](https://img.shields.io/badge/cred-ed--cr-red)](https://github.com/ftessier/ai-cred) | Edited   | Created  | AI drafted, human substantially rewrote           |
-| [![cred](https://img.shields.io/badge/cred-dr--cr-red)](https://github.com/ftessier/ai-cred) | Directed | Created  | Human prompted and curated, AI generated          |
-| [![cred](https://img.shields.io/badge/cred-re--cr-red)](https://github.com/ftessier/ai-cred) | Reviewed | Created  | AI generated, human approved with minimal changes |
-| [![cred](https://img.shields.io/badge/cred-no--cr-red)](https://github.com/ftessier/ai-cred)    | None     | Created  | Fully AI-generated                                |
+| [![cred](https://img.shields.io/badge/cred-cr--no_1.0-green)](https://github.com/ftessier/ai-cred)  | Created  | None     | Fully human-authored, no AI involved              |
+| [![cred](https://img.shields.io/badge/cred-cr--re_1.0-green)](https://github.com/ftessier/ai-cred) | Created  | Reviewed | Human wrote it, AI checked grammar                |
+| [![cred](https://img.shields.io/badge/cred-cr--ed_1.0-green)](https://github.com/ftessier/ai-cred) | Created  | Edited   | Human wrote it, AI polished style                 |
+| [![cred](https://img.shields.io/badge/cred-cr--dr_1.0-green)](https://github.com/ftessier/ai-cred) | Created  | Directed | AI guided structure, human produced content       |
+| [![cred](https://img.shields.io/badge/cred-ed--cr_1.0-red)](https://github.com/ftessier/ai-cred) | Edited   | Created  | AI drafted, human substantially rewrote           |
+| [![cred](https://img.shields.io/badge/cred-dr--cr_1.0-red)](https://github.com/ftessier/ai-cred) | Directed | Created  | Human prompted and curated, AI generated          |
+| [![cred](https://img.shields.io/badge/cred-re--cr_1.0-red)](https://github.com/ftessier/ai-cred) | Reviewed | Created  | AI generated, human approved with minimal changes |
+| [![cred](https://img.shields.io/badge/cred-no--cr_1.0-red)](https://github.com/ftessier/ai-cred)    | None     | Created  | Fully AI-generated                                |
 |                                                                                                 |          |          |
 
 ## 5. Attribution layers
 
 **Short form** — minimal inline reference:
 
-```
-cred-dr-cr
+```text
+cred-dr-cr 1.0
 ```
 
 **Standard form** — includes tool:
 
-```
-cred-dr-cr | Claude Opus 4.5
+```text
+cred-dr-cr 1.0 | Claude Opus 4.5
 ```
 
 **Extended form** — full disclosure statement:
 
-```
-cred-dr-cr | Claude Opus 4.5 (Anthropic) | February 2025
+```text
+cred-dr-cr 1.0 | Claude Opus 4.5 (Anthropic) | February 2026
 
 The author provided detailed prompts, source materials, and structural
 guidance. AI generated the initial draft. The author reviewed and
@@ -81,15 +81,13 @@ The author takes full responsibility for the final content.
 
 1. **Be accurate** — choose codes that honestly reflect the work process
 2. **When in doubt, disclose more** — use the extended form for complex cases
-3. **Mixed works** — for works with distinct sections, attribute separately: `Text: cred-cr-ed | Images: cred-dr-cr`
+3. **Mixed works** — for works with distinct sections, attribute separately: `Text: cred-cr-ed 1.0 | Images: cred-dr-cr 1.0`
 4. **Evolving works** — update attribution if the human-AI balance changes in revisions
 5. **Tool specificity** — name the AI system when known; use "ai" generically if multiple or unknown
 
 ## 7. Responsibility
 
-The **cred** framework describes *process*, not *accountability*.
-
-The human contributor always bears responsibility for the final work's accuracy, ethics, and fitness for purpose — regardless of AI involvement level.
+The **cred** framework describes *process*, not *accountability*. The human contributor always bears responsibility for the final work's accuracy, ethics, and fitness for purpose — regardless of AI involvement level.
 
 ## 8. License
 
