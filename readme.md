@@ -16,7 +16,7 @@
 
 ## 1. Purpose
 
-The **cred** framework provides a simple, universal way to declare the respective contributions of humans and AI systems in creating a work. Like Creative Commons for copyright, it scales from a quick shorthand to detailed attribution statements.
+The **cred** framework provides a simple, universal way to declare human and AI contributions in creating a work. Inspired by [Creative Commons]([url](https://creativecommons.org/)) for copyright, it scales from quick shorthand to detailed attribution. The system is voluntary and trust-based: there is no oversight or legal enforcement. The goal is to give authors a standard way to label AI involvement for transparency, including an unambiguous signal when no AI was used (`cred-cr-no`).
 
 ## 2. Format
 
@@ -26,7 +26,7 @@ cred-[human contribution]-[ai contribution] [version]
 
 ## 3. Contribution codes
 
-All codes use only the letters **c, r, e, d** — easy to remember as "cred" (credibility, as in the expression "street cred").
+All codes use only the letters **c, r, e, d** — easy to remember as "cred" (meaning _credits_, _credentials_ or _credibility_).
 
 | Code | Level | Meaning                                                               |
 | ---- | ----- | :-------------------------------------------------------------------- |
