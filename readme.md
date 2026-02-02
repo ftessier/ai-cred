@@ -1,8 +1,7 @@
-# The ai-cred framework — A simple standard for human-ai attribution <!-- omit in toc -->
+# cred — A memorable standard for Human-AI attribution <!-- omit in toc -->
 
+[![cred](https://img.shields.io/badge/cred-dr--cr-red)](https://github.com/ftessier/cred)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
-
-`ai-dr-cr`
 
 ## Table of contents <!-- omit in toc -->
 
@@ -17,12 +16,12 @@
 
 ## 1. Purpose
 
-The **ai-cred** framework provides a simple, universal way to declare the respective contributions of humans and AI systems in creating a work. Like Creative Commons for copyright, it scales from a quick shorthand to detailed attribution statements.
+The **cred** framework provides a simple, universal way to declare the respective contributions of humans and AI systems in creating a work. Like Creative Commons for copyright, it scales from a quick shorthand to detailed attribution statements.
 
 ## 2. Format
 
 ```
-ai-[human contribution]-[ai contribution]
+cred-[human contribution]-[ai contribution]
 ```
 
 ## 3. Contribution codes
@@ -41,35 +40,36 @@ The scale reflects intensity of contribution: `no` < `re` < `ed` < `dr` < `cr`
 
 ## 4. Common examples
 
-| Tag        | Human    | AI       | Typical Scenario                                  |
-| :--------- | :------- | :------- | :------------------------------------------------ |
-| `ai-cr-no` | Created  | None     | Fully human-authored, no AI involved              |
-| `ai-cr-re` | Created  | Reviewed | Human wrote it, AI checked grammar                |
-| `ai-cr-ed` | Created  | Edited   | Human wrote it, AI polished style                 |
-| `ai-cr-dr` | Created  | Directed | AI guided structure, human produced content       |
-| `ai-ed-cr` | Edited   | Created  | AI drafted, human substantially rewrote           |
-| `ai-dr-cr` | Directed | Created  | Human prompted and curated, AI generated          |
-| `ai-re-cr` | Reviewed | Created  | AI generated, human approved with minimal changes |
-| `ai-no-cr` | None     | Created  | Fully AI-generated                                |
+| Tag                                                                                             | Human    | AI       | Typical Scenario                                  |
+| :---------------------------------------------------------------------------------------------- | :------- | :------- | :------------------------------------------------ |
+| [![cred](https://img.shields.io/badge/cred-cr--no-green)](https://github.com/ftessier/ai-cred)  | Created  | None     | Fully human-authored, no AI involved              |
+| [![cred](https://img.shields.io/badge/cred-cr--re-green)](https://github.com/ftessier/ai-cred) | Created  | Reviewed | Human wrote it, AI checked grammar                |
+| [![cred](https://img.shields.io/badge/cred-cr--ed-green)](https://github.com/ftessier/ai-cred) | Created  | Edited   | Human wrote it, AI polished style                 |
+| [![cred](https://img.shields.io/badge/cred-cr--dr-green)](https://github.com/ftessier/ai-cred) | Created  | Directed | AI guided structure, human produced content       |
+| [![cred](https://img.shields.io/badge/cred-ed--cr-red)](https://github.com/ftessier/ai-cred) | Edited   | Created  | AI drafted, human substantially rewrote           |
+| [![cred](https://img.shields.io/badge/cred-dr--cr-red)](https://github.com/ftessier/ai-cred) | Directed | Created  | Human prompted and curated, AI generated          |
+| [![cred](https://img.shields.io/badge/cred-re--cr-red)](https://github.com/ftessier/ai-cred) | Reviewed | Created  | AI generated, human approved with minimal changes |
+| [![cred](https://img.shields.io/badge/cred-no--cr-red)](https://github.com/ftessier/ai-cred)    | None     | Created  | Fully AI-generated                                |
+|                                                                                                 |          |          |
 
 ## 5. Attribution layers
 
 **Short form** — minimal inline reference:
 
 ```
-ai-dr-cr
+cred-dr-cr
 ```
 
 **Standard form** — includes tool:
 
 ```
-ai-dr-cr | Claude Opus 4.5
+cred-dr-cr | Claude Opus 4.5
 ```
 
 **Extended form** — full disclosure statement:
 
 ```
-ai-dr-cr | Claude Opus 4.5 (Anthropic) | February 2025
+cred-dr-cr | Claude Opus 4.5 (Anthropic) | February 2025
 
 The author provided detailed prompts, source materials, and structural
 guidance. AI generated the initial draft. The author reviewed and
@@ -81,18 +81,16 @@ The author takes full responsibility for the final content.
 
 1. **Be accurate** — choose codes that honestly reflect the work process
 2. **When in doubt, disclose more** — use the extended form for complex cases
-3. **Mixed works** — for works with distinct sections, attribute separately: `Text: ai-cr-ed | Images: ai-dr-cr`
+3. **Mixed works** — for works with distinct sections, attribute separately: `Text: cred-cr-ed | Images: cred-dr-cr`
 4. **Evolving works** — update attribution if the human-AI balance changes in revisions
 5. **Tool specificity** — name the AI system when known; use "ai" generically if multiple or unknown
 
 ## 7. Responsibility
 
-The **ai-cred** framework describes *process*, not *accountability*.
+The **cred** framework describes *process*, not *accountability*.
 
 The human contributor always bears responsibility for the final work's accuracy, ethics, and fitness for purpose — regardless of AI involvement level.
 
 ## 8. License
 
-The AI-CRED Framework is released under **CC0 1.0 Universal (Public Domain)**.
-
-You may freely use, adapt, and build upon this framework without restriction.
+The **cred** Framework is released under [**CC0 1.0 Universal (Public Domain)**](https://creativecommons.org/publicdomain/zero/1.0/legalcode.en). You may freely use, adapt, and build upon this framework without restriction.
