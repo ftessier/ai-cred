@@ -85,7 +85,7 @@ The author takes full responsibility for the final content.
 1. **Capture** — choose codes that honestly reflect the work process
 2. **Refine** — attribute distinct parts separately (e.g. `Text: cred-cr-ed 1.0 | Images: cred-dr-cr 1.0`)
 3. **Evolve** — update attribution as works and contributions change
-4. **Disclose** — reveal more for complex or uncertain cases
+4. **Disclose** — reveal more for complex or uncertain cases, using the extended form
 
 ## 7. Responsibility
 
