@@ -45,7 +45,7 @@ Badge colors indicate primary authorship at a glance: green when the human creat
 | Tag                                                                                              | Human    | AI       | Typical Scenario                                  |
 | :----------------------------------------------------------------------------------------------- | :------- | :------- | :------------------------------------------------ |
 | [![cred](https://img.shields.io/badge/cred-cr--no_1.0-green)](https://github.com/ftessier/cred)  | Created  | None     | Fully human-authored, no AI involved              |
-| [![cred](https://img.shields.io/badge/cred-cr--re_1.0-green)](https://github.com/ftessier/cred)  | Created  | Reviewed | Human wrote it, AI checked grammar                |
+| [![cred](https://img.shields.io/badge/cred-cr--re_1.0-green)](https://github.com/ftessier/cred)  | Created  | Reviewed | Human wrote it, AI contributed minor changes      |
 | [![cred](https://img.shields.io/badge/cred-cr--ed_1.0-green)](https://github.com/ftessier/cred)  | Created  | Edited   | Human wrote it, AI polished style                 |
 | [![cred](https://img.shields.io/badge/cred-cr--dr_1.0-green)](https://github.com/ftessier/cred)  | Created  | Directed | AI guided structure, human produced content       |
 | [![cred](https://img.shields.io/badge/cred-cr--cr_1.0-orange)](https://github.com/ftessier/cred) | Created  | Created  | Iterative collaboration, balanced contribution    |
