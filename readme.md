@@ -16,7 +16,7 @@
 
 ## 1. Purpose
 
-The **cred** standard provides a simple, universal way to declare human and AI contributions in creating a work. Inspired by [Creative Commons](https://creativecommons.org/) for copyright, it scales from quick shorthand to detailed attribution. The system is voluntary and trust-based: there is no oversight or legal enforcement. The goal is to give authors a standard way to label AI involvement for transparency, including an unambiguous signal when no AI was used (`cred-cr-no`).
+The **cred** standard provides a simple, universal way to declare human and AI contributions in creating a work. Inspired by [Creative Commons](https://creativecommons.org/) for copyright, it scales from quick shorthand to detailed attribution. The system is voluntary and trust-based: there is no oversight or compliance mechanism. The goal is to give authors a standard way to label AI involvement for transparency, including an unambiguous signal when no AI was used (`cred-cr-no`).
 
 ## 2. Format
 
