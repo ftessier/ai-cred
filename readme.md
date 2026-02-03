@@ -12,7 +12,8 @@
 - [5. Attribution layers](#5-attribution-layers)
 - [6. Usage guidelines](#6-usage-guidelines)
 - [7. Responsibility](#7-responsibility)
-- [8. License](#8-license)
+- [8. Related initiatives](#8-related-initiatives)
+- [9. License](#9-license)
 
 ## 1. Purpose
 
@@ -90,6 +91,21 @@ The author takes full responsibility for the final content.
 
 The **cred** standard describes *process*, not *accountability*. The human contributor always bears responsibility for the final work's accuracy, ethics, and fitness for purpose — regardless of AI involvement level.
 
-## 8. License
+### 8. Related initiatives
+
+Several initiatives are currently working toward establishing transparent, interoperable standards for AI content attribution and labeling. These efforts aim to help creators, developers, and users identify the origins and authorship of AI-generated content across platforms and media.
+
+- **[AI Attribution](https://aiattribution.github.io/)** — An initiative exploring frameworks and metadata conventions to enable reliable attribution of AI models, datasets, and outputs.  
+- **[AI Labels](https://ailabels.org)** — A collaborative project developing open standards for labeling AI-generated or AI-assisted content, to promote transparency and trust in digital media.  
+- **[C2PA (Coalition for Content Provenance and Authenticity)](https://c2pa.org)** — An industry consortium defining a technical standard for certifying the provenance of digital content, including AI-generated assets.  
+- **[Content Authenticity Initiative (CAI)](https://contentauthenticity.org)** — A community-led effort to provide tools and standards for verifying content authenticity and attribution.  
+- **[AID Framework (University of Waterloo)](https://subjectguides.uwaterloo.ca/AIDFramework)** — A guide outlining principles for transparent and responsible use of AI tools in research and creative work, emphasizing disclosure, integrity, and accountability.  
+- **[AACC Framework](https://github.com/dzmalone/aacc)** — A proposed framework for labeling creative works that incorporate AI, offering practical guidelines for writers, artists, and publishers to communicate how AI was used in their process.
+
+These projects and frameworks share similar goals with **cred**, focusing on verifiable provenance, standardized metadata, and ethical transparency in AI systems. Including references to them helps situate **cred** within the broader ecosystem of AI attribution and content authenticity standards.
+
+## 9. License
 
 The **cred** standard is released under [**CC0 1.0 Universal (Public Domain)**](https://creativecommons.org/publicdomain/zero/1.0/legalcode.en). You may freely use, adapt, and build upon this standard without restriction.
+
+
