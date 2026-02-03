@@ -91,7 +91,7 @@ The author takes full responsibility for the final content.
 
 The **cred** standard describes *process*, not *accountability*. The human contributor always bears responsibility for the final work's accuracy, ethics, and fitness for purpose — regardless of AI involvement level.
 
-### 8. Related initiatives
+## 8. Related initiatives
 
 Several initiatives are currently working toward establishing transparent, interoperable standards for AI content attribution and labeling. These efforts aim to help creators, developers, and users identify the origins and authorship of AI-generated content across platforms and media.
 
