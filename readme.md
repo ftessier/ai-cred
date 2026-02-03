@@ -16,7 +16,7 @@
 
 ## 1. Purpose
 
-The **cred** framework provides a simple, universal way to declare human and AI contributions in creating a work. Inspired by [Creative Commons]([url](https://creativecommons.org/)) for copyright, it scales from quick shorthand to detailed attribution. The system is voluntary and trust-based: there is no oversight or legal enforcement. The goal is to give authors a standard way to label AI involvement for transparency, including an unambiguous signal when no AI was used (`cred-cr-no`).
+The **cred** standard provides a simple, universal way to declare human and AI contributions in creating a work. Inspired by [Creative Commons](https://creativecommons.org/) for copyright, it scales from quick shorthand to detailed attribution. The system is voluntary and trust-based: there is no oversight or legal enforcement. The goal is to give authors a standard way to label AI involvement for transparency, including an unambiguous signal when no AI was used (`cred-cr-no`).
 
 ## 2. Format
 
@@ -81,16 +81,15 @@ The author takes full responsibility for the final content.
 
 ## 6. Usage guidelines
 
-1. **Be accurate** — choose codes that honestly reflect the work process
-2. **When in doubt, disclose more** — use the extended form for complex cases
-3. **Mixed works** — for works with distinct sections, attribute separately: `Text: cred-cr-ed 1.0 | Images: cred-dr-cr 1.0`
-4. **Evolving works** — update attribution if the human-AI balance changes in revisions
-5. **Tool specificity** — name the AI system when known; use "ai" generically if multiple or unknown
+1. **Capture** — choose codes that honestly reflect the work process
+2. **Refine** — attribute distinct parts separately (e.g. `Text: cred-cr-ed 1.0 | Images: cred-dr-cr 1.0`)
+3. **Evolve** — update attribution as works and contributions change
+4. **Disclose** — reveal more for complex or uncertain cases
 
 ## 7. Responsibility
 
-The **cred** framework describes *process*, not *accountability*. The human contributor always bears responsibility for the final work's accuracy, ethics, and fitness for purpose — regardless of AI involvement level.
+The **cred** standard describes *process*, not *accountability*. The human contributor always bears responsibility for the final work's accuracy, ethics, and fitness for purpose — regardless of AI involvement level.
 
 ## 8. License
 
-The **cred** Framework is released under [**CC0 1.0 Universal (Public Domain)**](https://creativecommons.org/publicdomain/zero/1.0/legalcode.en). You may freely use, adapt, and build upon this framework without restriction.
+The **cred** standard is released under [**CC0 1.0 Universal (Public Domain)**](https://creativecommons.org/publicdomain/zero/1.0/legalcode.en). You may freely use, adapt, and build upon this standard without restriction.
