@@ -32,7 +32,7 @@ All codes use only the letters **c, r, e, d** — easy to remember as "cred" (as
 | Code | Level | Meaning                                                               |
 | ---- | ----- | :-------------------------------------------------------------------- |
 | `no` | 0     | **No involvement** — absent or only trivial tools (e.g., spell-check) |
-| `re` | 1     | **Reviewed** — checked, approved, responded, minor corrections        |
+| `re` | 1     | **Reviewed** — checked, approved, minor corrections                   |
 | `ed` | 2     | **Edited** — substantially revised or rewrote                         |
 | `dr` | 3     | **Directed** — guided, prompted, shaped the work                      |
 | `cr` | 4     | **Created** — produced the original content                           |
