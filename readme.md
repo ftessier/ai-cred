@@ -26,7 +26,7 @@ cred-[human contribution]-[ai contribution] [version]
 
 ## 3. Contribution codes
 
-All codes use only the letters **c, r, e, d** — easy to remember as "cred" (meaning _credits_, _credentials_ or _credibility_).
+All codes use only the letters **c, r, e, d** — easy to remember as "cred" (as in _street cred_, _credits_, _credibility_).
 
 | Code | Level | Meaning                                                               |
 | ---- | ----- | :-------------------------------------------------------------------- |
